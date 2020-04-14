@@ -1,14 +1,14 @@
     <footer class="container-fluid bg-dark text-white mt-4 p-3">
         <div class="row">
             <section class="col-12 col-md-6">
-                <ul>
-                    <li><a class="text-white" href="mailto:fulano@fulanitos.com">fulano@fulanitos.com</ class="text-white"></li>
-                    <li><a class="text-white" href="tel:+5511987654321">11 987 654 321</a></li>
+                <ul style="list-style:none;padding:0;margin:0">
+                    <li><a class="text-white" style="text-decoration:none;" href="mailto:fulano@fulanitos.com">fulano@fulanitos.com</a></li>
+                    <li><a class="text-white" style="text-decoration:none;" href="tel:+5511987654321">11 987 654 321</a></li>
                 </ul>
             </section>
             <section class="col-12 col-md-6">
-                <ul>
-                    <li>Avenida Brasil, 4500 - CEP 01234-567</li>
+                <ul style="list-style:none;padding:0;margin:0">
+                    <li>Avenida Brasil, 4200 - CEP 01234-567</li>
                     <li>Fulanos &copy; | CNPJ 01.012.012/0001-99</li>
                 </ul>
             </section>
@@ -38,14 +38,14 @@
             </div>
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="aceite">
-                <label class="form-check-label" for="aceite">Estou de acordo com os termos, pode vender meus dados!</label>
+                <label class="form-check-label" for="aceite">Estou de acordo com os termos de uso.</label>
             </div>
             </form>
             <small class="d-block w-100 text-muted">Ops! Ainda não tenho conta, quero <a href="cadastro.php" class="text-info">me cadastrar</a>.</small>
             </div>
             <div class="modal-footer">
             <button type="reset" class="btn btn-secondary">Limpar</button>
-            <button type="submit" class="btn btn-info">Logar</button>
+            <button type="submit" class="btn btn-info">Login</button>
             </div>
         </div>
     </div>
