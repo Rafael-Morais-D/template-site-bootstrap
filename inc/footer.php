@@ -1,9 +1,9 @@
-    <footer class="container-fluid bg-dark text-white">
+    <footer class="container-fluid bg-dark text-white mt-4 p-3">
         <div class="row">
             <section class="col-12 col-md-6">
                 <ul>
-                    <li><a href="mailto:fulano@fulanitos.com">fulano@fulanitos.com</a></li>
-                    <li><a href="tel:+5511987654321">11 987 654 321</a></li>
+                    <li><a class="text-white" href="mailto:fulano@fulanitos.com">fulano@fulanitos.com</ class="text-white"></li>
+                    <li><a class="text-white" href="tel:+5511987654321">11 987 654 321</a></li>
                 </ul>
             </section>
             <section class="col-12 col-md-6">
