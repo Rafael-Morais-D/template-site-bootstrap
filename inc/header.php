@@ -1,9 +1,9 @@
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="index.php">
-                <img src="https://slack.global.ssl.fastly.net/9427/img/icons/app-256.png" alt="Logo" width="30" height="30">
-                Umbrella Corp
+                <img src="./assets/img/logo.png" alt="Logo" width="30" height="30" class='mr-2'>
+                Rafael Morais Decorações
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -14,16 +14,23 @@
                         <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Produtos</a>
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./categoria.php">Objetos</a>
+                            <a class="dropdown-item" href="./categoria.php">Coisas</a>
+                            <a class="dropdown-item" href="./categoria.php">Decoração</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Em breve, novidades...</a>
                     </li>
                 </ul>
             </div>

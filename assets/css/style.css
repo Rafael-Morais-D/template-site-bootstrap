@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+main {
+    padding: 0 !important;
+    margin-top: 55px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:not(.btn) {
+    color: inherit;
+}
+
+.table td,
+.table th {
+    vertical-align: middle !important;
+}
+
+.carousel-item {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: calc(50vh - 59px);
+}
+
+#banner01 {
+    background-color: aqua;
+    background-image: url(../img/banner-01.jpg);
+}
+
+#banner02 {
+    background-color: aqua;
+    background-image: url(../img/banner-02.jpg);
+}
+
+#banner03 {
+    background-color: aqua;
+    background-image: url(../img/banner-03.jpg);
+}
+
+#banner04 {
+    background-color: aqua;
+    background-image: url(../img/banner-04.png);
+}
